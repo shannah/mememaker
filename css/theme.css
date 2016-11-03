@@ -1,0 +1,72 @@
+/*
+@font-face {
+    font-family: "Luckiest Guy";
+    src: url(github://google/fonts/blob/master/apache/luckiestguy/LuckiestGuy.ttf);
+}*/
+@font-face {
+    font-family: "Coda";
+    src: url(Coda-Heavy.ttf);
+}
+@font-face {
+    font-family: "FontAwesome";
+    src: url(fontawesome-webfont.ttf);
+}
+
+Images {
+    background-image: url(MemeIcon-white-100x100.png);
+    cn1-source-dpi: 320;
+}
+
+#Constants {
+    MemeIconImage: "MemeIcon-white-100x100.png";
+}
+
+MemeText {
+    font-family: "Coda";
+    text-align: center;
+}
+
+IconText {
+    font-family: "FontAwesome";
+}
+
+Title {
+    font-family: "Coda";
+    font-size: 3mm;
+    color: white;
+}
+
+TitleArea {
+    border: none;
+    background-color: #673AB7;
+}
+
+Button {
+    background-color: #7E57C2;
+    border: 1px solid transparent;
+    border-radius: 5pt;
+    color: white;
+}
+
+Button.pressed, Button.selected {
+    background-color: #311B92;
+    border: 1px solid transparent;
+    border-radius: 5pt;
+    color: white;
+}
+
+PopupDialog {
+    background-color: #673AB7;
+    border: 1px solid black;
+    color: white;
+    border-radius: 5pt;
+}
+
+PopupDialogTitle {
+    color: white;
+}
+
+TextField {
+    border: 1pt solid white;
+    color: white;
+}
